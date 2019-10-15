@@ -1,0 +1,163 @@
+:root {
+    --green-dark    : rgb(1, 143, 72);
+    --green-dark-t  : rgba(1, 143, 72, 0.301);
+    --green-dark-t-h: rgba(38, 202, 120, 0.301);
+    --green-light   : rgb(1, 243, 122);
+    --green-light-t : rgba(1, 243, 122, 0.356);
+    --green-intense : rgb(4, 255, 88);
+    --gray-light    : rgb(179, 179, 179);
+    --gray-dark     : rgb(97, 97, 97);
+    --gray-darker   : rgb(46, 46, 46);
+    --gray-darkest  : rgb(31, 31, 31);
+    --red-strong    : rgb(230, 24, 24);
+}
+
+body {
+    background-color: whitesmoke;
+    color           : rgb(124, 124, 124);
+}
+
+a:link {
+    color          : var(--red-strong);
+    text-decoration: none;
+}
+
+a:visited {
+    color          : var(--red-strong);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(94, 94, 94);
+}
+
+*:focus {
+    outline: none;
+}
+
+.main-header {
+    background-color: var(--green-dark);
+    border-bottom   : 0.6rem solid rgb(7, 7, 6);
+    border-radius   : 0.5rem;
+    padding         : 0rem 0.5rem;
+    margin          : 0rem 0rem;
+}
+
+.main-jumbotron {
+    background-image     : url(../images/header-image.jpg);
+    background-size      : cover;
+    background-position-y: 47%;
+    background-position-x: 1%;
+    margin               : 0rem;
+}
+
+.jumbotron h1 {
+    color      : var(--green-light);
+    font-size  : 3rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.main-jumbotron p {
+    color: var(--green-light);
+}
+
+#logo {
+    height: 3.5rem;
+}
+
+.container-title-page {
+    padding: 0rem;
+}
+
+.title-page {
+    background-color: var(--green-dark);
+    color           : black;
+    border-radius   : 0.5rem;
+    text-shadow     : -0.05rem 0 white, 0 0.05rem white, 0.05rem 0 white, 0 -0.05rem white;
+    text-align      : center
+}
+
+.container-footer {
+    background-color: var(--gray-light);
+    color           : whitesmoke;
+    height          : 3rem;
+    position        : relative;
+    bottom          : 0rem;
+}
+
+.container-footer p {
+    margin  : 0rem;
+    position: relative;
+    top     : 20%
+}
+
+.card-event {
+    height: 22rem;
+}
+
+.card-image {
+    height: 12rem;
+    width : 100%;
+}
+
+.container-contact {
+    height: 7rem;
+}
+
+.main-titles {
+    color: var(--gray-darker);
+}
+
+.border {
+    border          : 0.1rem dashed var(--green-dark) !important;
+    background-color: var(--green-dark-t);
+    color           : var(--gray-dark);
+    border-radius   : 1rem;
+    overflow        : auto;
+}
+
+.border:hover {
+    background-color: var(--green-dark-t-h);
+    color           : var(--gray-darkest);
+    border          : 0.1rem dashed var(--green-light) !important;
+}
+
+.border ul li {
+    list-style-type: square;
+}
+
+.list-letter {
+    list-style-type: lower-latin;
+    margin         : 1rem 1rem;
+}
+
+#ol-square {
+    list-style-type: square;
+}
+
+#li-outside {
+    list-style-type: none;
+}
+
+.li-empty-circle {
+    list-style-type: circle !important;
+    margin-top     : 1rem;
+}
+
+table {
+    text-align: center;
+    width     : 100%;
+}
+
+td:hover {
+    background-color: var(--green-dark-t);
+    border-radius   : 3rem;
+    color           : white;
+}
+
+iframe {
+    width        : 100%;
+    height       : 20rem;
+    border-radius: 3rem;
+    margin       : 0rem;
+}
