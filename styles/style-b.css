@@ -15,6 +15,9 @@
 body {
     background-color: whitesmoke;
     color           : rgb(124, 124, 124);
+    /*font-family: 'Modak';
+    font-family: 'Source Sans Pro', sans-serif;*/
+    font-family: 'Signika', sans-serif;
 }
 
 a:link {
@@ -58,7 +61,8 @@ a:hover {
 }
 
 .main-jumbotron p {
-    color: var(--green-light);
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #logo {
@@ -160,4 +164,63 @@ iframe {
     height       : 20rem;
     border-radius: 3rem;
     margin       : 0rem;
+}
+
+input {
+    border       : 0.01rem solid rgb(255, 255, 129);
+    border-radius: 10px;
+    overflow     : auto;
+    text-align   : center;
+    color        : var(--gray-darker);
+    height       : 1.7rem;
+}
+
+.form-padding {
+    padding-left: 20%;
+}
+
+.form-padding h3 {
+    text-align: center;
+}
+
+select {
+    border-radius: 1rem !important;
+    overflow     : auto;
+    text-align   : center;
+    color        : var(--gray-darker);
+}
+
+select option {
+    color: var(--gray-darkest);
+}
+
+.form-item-2 {
+    float        : left;
+    margin-left  : 25%;
+    margin-top   : 1%;
+    margin-bottom: 2%;
+}
+
+.div-permission {
+    width: 100%
+}
+
+#input-permission-sign {
+    width: 90%;
+    position: relative;
+    left: 1%;
+}
+
+#input-permission-date {
+    width: 40%;
+    float: left;
+    position: relative;
+    left: 1%;
+}
+
+#submit {
+    float: right;
+    width: 40%;
+    position: relative;
+    right: 9%;
 }
