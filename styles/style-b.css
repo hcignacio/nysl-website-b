@@ -106,9 +106,9 @@ a:hover {
     width : 100%;
 }
 
-.container-contact {
-    height: 7rem;
-}
+/*.container-contact {
+    height: 9rem;
+}*/
 
 .main-titles {
     color: var(--gray-darker);
@@ -225,4 +225,10 @@ select option {
     width   : 40%;
     position: relative;
     right   : 9%;
+}
+
+#footer-contact{
+    position: absolute;
+    bottom: 0 !important;
+    width: 100%;
 }
