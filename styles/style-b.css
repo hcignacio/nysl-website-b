@@ -15,9 +15,7 @@
 body {
     background-color: whitesmoke;
     color           : rgb(124, 124, 124);
-    /*font-family: 'Modak';
-    font-family: 'Source Sans Pro', sans-serif;*/
-    font-family: 'Signika', sans-serif;
+    font-family     : 'Signika', sans-serif;
 }
 
 a:link {
@@ -61,7 +59,7 @@ a:hover {
 }
 
 .main-jumbotron p {
-    color: white;
+    color      : white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -81,13 +79,17 @@ a:hover {
     text-align      : center
 }
 
+
 .container-footer {
     background-color: var(--gray-light);
     color           : whitesmoke;
     height          : 3rem;
+    /*
     position        : relative;
     bottom          : 0rem;
+    */
 }
+
 
 .container-footer p {
     margin  : 0rem;
@@ -206,21 +208,21 @@ select option {
 }
 
 #input-permission-sign {
-    width: 90%;
+    width   : 90%;
     position: relative;
-    left: 1%;
+    left    : 1%;
 }
 
 #input-permission-date {
-    width: 40%;
-    float: left;
+    width   : 40%;
+    float   : left;
     position: relative;
-    left: 1%;
+    left    : 1%;
 }
 
 #submit {
-    float: right;
-    width: 40%;
+    float   : right;
+    width   : 40%;
     position: relative;
-    right: 9%;
+    right   : 9%;
 }
